@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paralax Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h2>Parallax Effect Website</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, similique accusantium quae unde eveniet expedita cum, ea a, quia dolor accusamus. Quod ad nam sequi quibusdam tempore minus error numquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti error odit quibusdam voluptas molestiae quod deserunt, adipisci vel nisi provident esse culpa, distinctio fugiat nam voluptates expedita aspernatur non officia.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, similique accusantium quae unde eveniet expedita cum, ea a, quia dolor accusamus. Quod ad nam sequi quibusdam tempore minus error numquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti error odit quibusdam voluptas molestiae quod deserunt, adipisci vel nisi provident esse culpa, distinctio fugiat nam voluptates expedita aspernatur non officia.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, similique accusantium quae unde eveniet expedita cum, ea a, quia dolor accusamus. Quod ad nam sequi quibusdam tempore minus error numquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti error odit quibusdam voluptas molestiae quod deserunt, adipisci vel nisi provident esse culpa, distinctio fugiat nam voluptates expedita aspernatur non officia.</p>
+    </section>
+    <div class="parallaxBg">
+        <img src="img/img1.jpg" class="parallaxImg1" alt="">
+    </div>
+
+    <section>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, similique accusantium quae unde eveniet expedita cum, ea a, quia dolor accusamus. Quod ad nam sequi quibusdam tempore minus error numquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti error odit quibusdam voluptas molestiae quod deserunt, adipisci vel nisi provident esse culpa, distinctio fugiat nam voluptates expedita aspernatur non officia.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, similique accusantium quae unde eveniet expedita cum, ea a, quia dolor accusamus. Quod ad nam sequi quibusdam tempore minus error numquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti error odit quibusdam voluptas molestiae quod deserunt, adipisci vel nisi provident esse culpa, distinctio fugiat nam voluptates expedita aspernatur non officia.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, similique accusantium quae unde eveniet expedita cum, ea a, quia dolor accusamus. Quod ad nam sequi quibusdam tempore minus error numquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti error odit quibusdam voluptas molestiae quod deserunt, adipisci vel nisi provident esse culpa, distinctio fugiat nam voluptates expedita aspernatur non officia.</p>
+    </section>
+    <div class="parallaxBg">
+        <img src="img/img2.jpg" class="parallaxImg2" alt="">
+    </div>
+
+    <section>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, similique accusantium quae unde eveniet expedita cum, ea a, quia dolor accusamus. Quod ad nam sequi quibusdam tempore minus error numquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti error odit quibusdam voluptas molestiae quod deserunt, adipisci vel nisi provident esse culpa, distinctio fugiat nam voluptates expedita aspernatur non officia.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, similique accusantium quae unde eveniet expedita cum, ea a, quia dolor accusamus. Quod ad nam sequi quibusdam tempore minus error numquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti error odit quibusdam voluptas molestiae quod deserunt, adipisci vel nisi provident esse culpa, distinctio fugiat nam voluptates expedita aspernatur non officia.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, similique accusantium quae unde eveniet expedita cum, ea a, quia dolor accusamus. Quod ad nam sequi quibusdam tempore minus error numquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti error odit quibusdam voluptas molestiae quod deserunt, adipisci vel nisi provident esse culpa, distinctio fugiat nam voluptates expedita aspernatur non officia.</p>
+    </section>
+    <div class="parallaxBg">
+        <img src="img/img3.jpg" class="parallaxImg3" alt="">
+    </div>
+
+    <section>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, similique accusantium quae unde eveniet expedita cum, ea a, quia dolor accusamus. Quod ad nam sequi quibusdam tempore minus error numquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti error odit quibusdam voluptas molestiae quod deserunt, adipisci vel nisi provident esse culpa, distinctio fugiat nam voluptates expedita aspernatur non officia.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, similique accusantium quae unde eveniet expedita cum, ea a, quia dolor accusamus. Quod ad nam sequi quibusdam tempore minus error numquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti error odit quibusdam voluptas molestiae quod deserunt, adipisci vel nisi provident esse culpa, distinctio fugiat nam voluptates expedita aspernatur non officia.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, similique accusantium quae unde eveniet expedita cum, ea a, quia dolor accusamus. Quod ad nam sequi quibusdam tempore minus error numquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti error odit quibusdam voluptas molestiae quod deserunt, adipisci vel nisi provident esse culpa, distinctio fugiat nam voluptates expedita aspernatur non officia.</p>
+    </section>
+    <div class="parallaxBg">
+        <img src="img/img4.jpg" class="parallaxImg4" alt="">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+
+    <script>
+        var image1 = document.getElementsByClassName('parallaxImg1');
+        var image2 = document.getElementsByClassName('parallaxImg2');
+        var image3 = document.getElementsByClassName('parallaxImg3');
+        var image4 = document.getElementsByClassName('parallaxImg4');
+        new simpleParallax(image1, {
+            orientation: 'left'
+        });
+        new simpleParallax(image2, {
+            orientation: 'right'
+        });
+        new simpleParallax(image3, {
+            orientation: 'up'
+        });
+        new simpleParallax(image4, {
+            orientation: 'down'
+        });
+    </script>
+
+
+</body>
+</html>
